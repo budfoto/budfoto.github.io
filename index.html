@@ -218,7 +218,11 @@
 									<p>A fotografia pra mim é algo que acontece de dentro pra fora. Gosto de enxergar o mundo através das luzes, sombras, brilhos, contrastes, cores, formas e curvas.<br/>Se quiser experimentar essa experiência comigo é só entrar em contato.<br/>o/</p>
 								</section>
 								<section>
+<<<<<<< HEAD
 								    <h2 class="whatsapp"><a href="https://api.whatsapp.com/send?phone=5511983938757&text=Olá!📷" target="_blank">Clique para me chamar no WHATASAPP...</a></h2>
+=======
+								    <h2 class="whatsapp"><a href="https://api.whatsapp.com/send?phone=5561996761988&text=Olá,%20gostaria%20de%20fazer%20um%20orçamento!" target="_blank">Clique para chamar no WHATSAPP!</a></h2>
+>>>>>>> f52485a4a2ae32d5b894fc3eb9d908a552b3289d
 								</section>
 								<section>
 									<h2>Redes Sociais / Follow me...</h2>
@@ -235,16 +239,18 @@
 							<div>
 								<section>
 									<h2>Contato / Orçamento</h2>
-									<form method="post" action="#">
+									<form method="POST" action="http://formspree.io/helissonss@gmail.com">
 										<div class="field half first">
-											<input type="text" name="name" id="name" placeholder="Nome" />
+											<input type="text" name="name" id="name" placeholder="Nome" required="" />
 										</div>
 										<div class="field half">
-											<input type="text" name="email" id="email" placeholder="E-mail" />
+											<input type="email" name="email" id="email" placeholder="E-mail" required="" />
 										</div>
 										<div class="field">
-											<textarea name="message" id="message" rows="4" placeholder="Fale sobre o tipo de orçamento... ensaio, eventos/festa, etc."></textarea>
+											<textarea name="message" id="message" rows="4" required="" placeholder="Fale sobre o tipo de orçamento... ensaios, eventos, festas e etc."></textarea>
 										</div>
+										<input type="hidden" name="_language" value="pt-BR" />
+										<input type="hidden" name="_next" value="//budfotografia.com.br" />
 										<ul class="actions">
 											<li><input type="submit" value="Enviar" class="special" /></li>
 											<li><input type="reset" value="Limpar" /></li>
@@ -264,6 +270,5 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
